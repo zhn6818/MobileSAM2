@@ -5,7 +5,8 @@
 # LICENSE file in the root directory of this source tree.
 
 import torch
-
+import sys
+sys.path.append("/Volumes/data/code/github/python/MobileSAM/")
 from mobile_sam import sam_model_registry
 from mobile_sam.utils.onnx import SamOnnxModel
 
